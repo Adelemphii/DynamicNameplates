@@ -60,7 +60,7 @@ public class KeyInputHandler {
         toggleNameplatesKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
                 KEY_TOGGLE_NAMEPLATES,
                 InputUtil.Type.KEYSYM,
-                GLFW.GLFW_KEY_T,
+                GLFW.GLFW_KEY_V,
                 KEY_CATEGORY
         ));
         showNameplatesKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(

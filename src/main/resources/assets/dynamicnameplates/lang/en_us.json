@@ -14,10 +14,21 @@
   "text.config.dynamic-nameplates-config.option.maxDistance": "Max Distance for Nameplates",
 
   "text.config.dynamic-nameplates-config.category.cubeSettings": "Cube of Tolerance Settings",
+  "text.config.dynamic-nameplates-config.category.cubeSettings.tooltip":
+  "Cube of tolerance rendering adapts visibility based on distance and angle to the player’s gaze.",
   "text.config.dynamic-nameplates-config.option.cubeSettings.baseHorizontalDeg": "Base Horizontal Degrees",
+  "text.config.dynamic-nameplates-config.option.cubeSettings.baseHorizontalDeg.tooltip":
+  "Controls how wide the horizontal view angle begins. \nHigher = easier to show nameplates left/right at close range.",
   "text.config.dynamic-nameplates-config.option.cubeSettings.baseVerticalDeg": "Base Vertical Degrees",
+  "text.config.dynamic-nameplates-config.option.cubeSettings.baseVerticalDeg.tooltip":
+  "Controls how wide the vertical view angle begins. \nHigher = easier to show nameplates above/below at close range.",
   "text.config.dynamic-nameplates-config.option.cubeSettings.horizLogScale": "Horizontal Logarithmic Scale",
+  "text.config.dynamic-nameplates-config.option.cubeSettings.horizLogScale.tooltip":
+  "Scales the horizontal allowed angle as distance increases. \nHigher = nameplates stay visible farther off-center.",
   "text.config.dynamic-nameplates-config.option.cubeSettings.vertLogScale": "Vertical Logarithmic Scale",
+  "text.config.dynamic-nameplates-config.option.cubeSettings.vertLogScale.tooltip":
+  "Scales the vertical allowed angle as distance increases. \nHigher = nameplates show more easily at high elevation differences.",
+
 
   "text.config.dynamic-nameplates-config.enum.renderMode.crosshair": "Crosshair",
   "text.config.dynamic-nameplates-config.enum.renderMode.cube": "Cube",
