@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "dynamicnameplates",
+	"version": "${version}",
+	"name": "DynamicNameplates",
+	"description": "Adds immersive, dynamic player nameplates that only appear when you’re looking at someone. Fully customizable visibility modes for different playstyles.",
+	"authors": [
+		"Adelemphii"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/dynamicnameplates/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"me.adelemphii.dynamicnameplates.DynamicNameplatesClient"
+		]
+	},
+	"mixins": [
+		"dynamicnameplates.mixins.json",
+		{
+			"config": "dynamicnameplates.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

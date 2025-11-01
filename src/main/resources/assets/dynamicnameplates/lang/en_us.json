@@ -1,0 +1,25 @@
+{
+  "key.category.dynamicnameplates": "Dynamic Nameplates",
+  "key.dynamicnameplates.toggle_nameplates": "Toggle Nameplates",
+  "text.dynamicnameplates.toggled_nameplates": "[DynamicNameplates] Successfully toggled nameplates.",
+  "key.dynamicnameplates.show_nameplates": "Show Nameplates (Hold)",
+
+  "text.config.dynamic-nameplates-config.title": "Dynamic Nameplates Configuration",
+  "text.config.dynamic-nameplates-config.option.showNameplates": "Allow Vanilla Behavior",
+  "text.config.dynamic-nameplates-config.option.closeRenderMode": "Close Render Mode",
+  "text.config.dynamic-nameplates-config.option.closeRenderMode.tooltip": "Warning: CUBE mode struggles when in close proximity.",
+  "text.config.dynamic-nameplates-config.option.farRenderMode": "Far Render Mode",
+  "text.config.dynamic-nameplates-config.option.modeSwapRange": "Distance To Swap Modes",
+  "text.config.dynamic-nameplates-config.option.modeSwapRange.tooltip": "When closer than this number, \nyou will be in close mode, \nwhen above you will be in far mode.",
+  "text.config.dynamic-nameplates-config.option.maxDistance": "Max Distance for Nameplates",
+
+  "text.config.dynamic-nameplates-config.category.cubeSettings": "Cube of Tolerance Settings",
+  "text.config.dynamic-nameplates-config.option.cubeSettings.baseHorizontalDeg": "Base Horizontal Degrees",
+  "text.config.dynamic-nameplates-config.option.cubeSettings.baseVerticalDeg": "Base Vertical Degrees",
+  "text.config.dynamic-nameplates-config.option.cubeSettings.horizLogScale": "Horizontal Logarithmic Scale",
+  "text.config.dynamic-nameplates-config.option.cubeSettings.vertLogScale": "Vertical Logarithmic Scale",
+
+  "text.config.dynamic-nameplates-config.enum.renderMode.crosshair": "Crosshair",
+  "text.config.dynamic-nameplates-config.enum.renderMode.cube": "Cube",
+  "text.config.dynamic-nameplates-config.enum.renderMode.area": "Area"
+}
