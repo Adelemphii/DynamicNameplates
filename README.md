@@ -1,7 +1,7 @@
 # 🏷️ DynamicNameplates
 *A smarter, cleaner way to render player nameplates in Minecraft.*
 
-![DynamicNameplates Logo](assets/dynamicnameplates/icon.png)
+![DynamicNameplates Logo](https://github.com/Adelemphii/DynamicNameplates/blob/master/src/main/resources/assets/dynamicnameplates/icon.png)
 
 ---
 
