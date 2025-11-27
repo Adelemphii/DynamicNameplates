@@ -7,6 +7,7 @@ import me.adelemphii.dynamicnameplates.render.RenderModeHandler;
 import me.adelemphii.dynamicnameplates.render.modes.AreaMode;
 import me.adelemphii.dynamicnameplates.render.modes.CrosshairMode;
 import me.adelemphii.dynamicnameplates.render.modes.CubeMode;
+import me.adelemphii.dynamicnameplates.render.modes.NoneMode;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.PlayerEntityRenderer;
@@ -58,6 +59,7 @@ public class PlayerEntityRendererMixin {
 			case CROSSHAIR -> new CrosshairMode();
 			case CUBE -> new CubeMode();
 			case AREA -> new AreaMode();
+			default -> new NoneMode();
 		};
 
 		if (!handler.shouldRender(client, renderEntity, toTarget, distance)) {

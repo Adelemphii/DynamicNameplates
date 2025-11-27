@@ -40,6 +40,7 @@ public class DNConfigModel {
     public enum RenderMode {
         CROSSHAIR, // Targets what the player is looking at; raycast at distance
         CUBE,      // Checks entities in a growing cube of tolerance around crosshair
-        AREA       // Shows all nametags within distance X
+        AREA,      // Shows all nametags within distance X
+        NONE       // Does not render nametags at all
     }
 }

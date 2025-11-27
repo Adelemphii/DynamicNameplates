@@ -32,5 +32,6 @@
 
   "text.config.dynamic-nameplates-config.enum.renderMode.crosshair": "Crosshair",
   "text.config.dynamic-nameplates-config.enum.renderMode.cube": "Cube",
-  "text.config.dynamic-nameplates-config.enum.renderMode.area": "Area"
+  "text.config.dynamic-nameplates-config.enum.renderMode.area": "Area",
+  "text.config.dynamic-nameplates-config.enum.renderMode.none": "None"
 }
